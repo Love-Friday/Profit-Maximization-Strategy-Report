@@ -1,4 +1,4 @@
-# Profit-Maximization-Strategy-Report
+# Profit-Maximization-Strategy-Report: Ms Excel Project
 
 ## Table of Contents
 
