@@ -35,6 +35,9 @@ In the data cleaning/preparation phase, I perfromed the following tasks;
 6.  I inserted two extra columns to extract year and month values from date column 
 7.  To extract year using the year function; =YEAR(F2 : F911)
 8.  To extract month using the month function; =YEAR(F2 : F911)
+9.  Click to see the file [download here](#
+10.  
+
 
 ### Business Questions  
 As I dug deeper uncovering the profit maximization strategies to introduce, my analysis begins to focus on the sales team and how to increase the revenue margin. Hence, these business questions popped up and  serve as my direction. They are as follows;
