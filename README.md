@@ -46,7 +46,14 @@ The primary dataset used for this project is the 'sales _data.excel' file. The d
 ### Data Cleaning
 In this report, I will outline the data cleaning process undertaken to prepare the dataset for analysis. The dataset, which contains sales information from various regions, required several steps to ensure accuracy and consistency. Below are the key actions taken to clean and organize the data effectively. 
 
- 1. Loading and inspection into MS Excel
+- Loaded the dataset into ms excel
+- Removed duplicates by selecting the data, navigating to the data tab, and clicked on remove duplicates (none found).
+- used the PROPER function in the Salesperson column to convert text to proper case, correcting mixed capitalization.
+- Applied VALUE(CLEAN) function in the item price column to eliminate non-printable characters and convert text values to numbers.
+- Ensured the revenue column automatically updates by formatting it to calculate item price multiplied by the number of items
+- Inserted two additional columns to extract Year and Month values from the Date column
+- utilized the YEAR function to extract the year from the Date column
+- Employed the MONTH function to extract the month from the Date column
 2.  Remove duplicates (none found): select data > click data tab > click  remove duplicates icon.
 3.  In salesperson column, I used =PROPER function to convert text to proper case
 4.  Item_price, I used =VALUE(CLEAN) function to remove non-printable character and convert text values to numbers.
