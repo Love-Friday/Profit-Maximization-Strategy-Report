@@ -47,21 +47,14 @@ The primary dataset used for this project is the 'sales _data.excel' file. The d
 In this report, I will outline the data cleaning process undertaken to prepare the dataset for analysis. The dataset, which contains sales information from various regions, required several steps to ensure accuracy and consistency. Below are the key actions taken to clean and organize the data effectively. 
 
 - Loaded the dataset into ms excel
-- Removed duplicates by selecting the data, navigating to the data tab, and clicked on remove duplicates (none found).
+- Removed duplicates (none found): select data > click data tab > click  remove duplicates icon.
 - used the PROPER function in the Salesperson column to convert text to proper case, correcting mixed capitalization.
 - Applied VALUE(CLEAN) function in the item price column to eliminate non-printable characters and convert text values to numbers.
-- Ensured the revenue column automatically updates by formatting it to calculate item price multiplied by the number of items
+- The revenue column automatically updates by formatting it to calculate item price multiplied by the number of items  = H2 * I2 
 - Inserted two additional columns to extract Year and Month values from the Date column
-- utilized the YEAR function to extract the year from the Date column
-- Employed the MONTH function to extract the month from the Date column
-2.  Remove duplicates (none found): select data > click data tab > click  remove duplicates icon.
-3.  In salesperson column, I used =PROPER function to convert text to proper case
-4.  Item_price, I used =VALUE(CLEAN) function to remove non-printable character and convert text values to numbers.
-5.  Revenue column, automatically updated because it was formatted to be this; item price * no.items = G2 * H2 
-6.  I inserted two extra columns to extract year and month values from date column 
-7.  To extract year using the year function; =YEAR(F2 : F911)
-8.  To extract month using the month function; =YEAR(F2 : F911)
-9.  Click to see the file [download here](#
+- utilized the YEAR function to extract the year from the Date column; =YEAR(K2 : K911)
+- Employed the MONTH function to extract the month from the Date column;  =YEAR(L2 : L911)
+
 
 Exploratory Data Analysis (EDA)
 
