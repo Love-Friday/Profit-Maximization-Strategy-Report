@@ -14,7 +14,26 @@
 
 ## Project Overview
 
-I was intrested in knowing  about looking This data analysis project aims to uncover insights on boosting profits through strategic decision- making based on sales performance across different dimensions. By examimng these key factors, I seek to gain valuable insights to drive profitability and optimize business strategies. 
+Bokku Mart is a leading retail company in Nigeria, dedicated to customer satisfaction by providing high-quality products at affordable prices. 
+The comapany offers a diverse range of products, making it a popular choice among consumers. 
+
+This project aims to analyze the Bokku Mart dataset, which is a 'fictitious' dataset used as acase study to gain insights into customer behaviour, sales trends, and product performance.
+
+## Tools
+The tool used for this analysis was Microsoft Excel.
+
+## Problem Statement 
+
+
+## Methodology:
+
+## Data Collection
+
+The dataset used for this report contains sales information from 4 different regions between 2022 and 2023. The dataset includes a total of 910 transactions, with each transaction containing essential information such as salesperson, products, regions, customers, date, item price, no of items, and revenue. 
+
+Attribute information. 
+- salesperson
+- 
 
 ### Data Source
 
@@ -25,8 +44,8 @@ The primary dataset used for this project is the 'sales _data.excel' file. The d
 - MS Excel: Utilizing the power of Microsoft Excel, I used MS Excel for data cleaning, in-depth data analysis, and the creation of visually engaging reports and interactive dashboard visualization.
 
 ### Data Cleaning
+In this report, I will outline the data cleaning process undertaken to prepare the dataset for analysis. The dataset, which contains sales information from various regions, required several steps to ensure accuracy and consistency. Below are the key actions taken to clean and organize the data effectively. 
 
-In the data cleaning/preparation phase, I perfromed the following tasks;
  1. Loading and inspection into MS Excel
 2.  Remove duplicates (none found): select data > click data tab > click  remove duplicates icon.
 3.  In salesperson column, I used =PROPER function to convert text to proper case
