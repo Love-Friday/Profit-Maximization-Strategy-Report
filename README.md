@@ -23,6 +23,9 @@ This project aims to analyze the Bokku Mart dataset, which is a 'fictitious' dat
 The tool used for this analysis was Microsoft Excel.
 
 ## Problem Statement 
+This analysis aims to evaluate the sales performance of products at Bokku Mart by examining key metrics such as total revenue from products sold, sales per customer, year-to-date revenue, and identifying the month and year with the highest profit. 
+
+Additionally, the analysis will investigate regional sales trends and determine which products the company should continue to invest in. 
 
 
 ## Methodology:
