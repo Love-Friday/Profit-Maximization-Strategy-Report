@@ -17,7 +17,7 @@
 Bokku Mart is a leading retail company in Nigeria, dedicated to customer satisfaction by providing high-quality products at affordable prices. 
 The comapany offers a diverse range of products, making it a popular choice among consumers. 
 
-This project aims to analyze the Bokku Mart dataset, which is a 'fictitious' dataset used as acase study to gain insights into customer behaviour, sales trends, and product performance.
+This project aims to analyze the Bokku Mart dataset, which is a 'fictitious' dataset used as a case study to gain insights into customer behaviour, sales trends, and product performance.
 
 ## Tools
 The tool used for this analysis was Microsoft Excel.
@@ -55,7 +55,8 @@ In this report, I will outline the data cleaning process undertaken to prepare t
 7.  To extract year using the year function; =YEAR(F2 : F911)
 8.  To extract month using the month function; =YEAR(F2 : F911)
 9.  Click to see the file [download here](#
-10.  
+
+Exploratory Data Analysis (EDA)
 
 
 ### Business Questions  
