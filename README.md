@@ -2,10 +2,10 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-- [Project Overview](#project-overview)
-- [Objectives](#objectives)
+   -[Project Overview](#project-overview)
+   -[Objectives](#objectives)
 2.[Business Problems](#business-problems)
-- [Problem Statement](#problem-statement)
+   - [Problem Statement](#problem-statement)
 3.[Data Source](#data-source)
 - [Key Metrics and Variables](#key-metrics-and-variables)
 - [Data Quality](#data-quality)
@@ -20,14 +20,36 @@
 - [Limitations](#limitations)
 - [References](#references)
 
+## Introduction
+
+Bokku Mart is a leading retail company in Nigeria, dedicated to customer satisfaction by providing high-quality products at affordable prices. The comapany offers a diverse range of products, making it a popular choice among consumers. 
+
+This project focuses on sales analytics for Bokku Mart, aiming to analyze and visualize sales data to uncover sales trends, customer behavior, product and salesperson performance. The objective is to identify top-performing salespeople, highlight seasonal and regional sales fluctuations, and provide actionable insights to optimize sales strategies. By utilizing data analysis tools and visualizations, this project helps guide decision-making to improve sales performance and maximize revenue at Bokku Mart.
+
 ## Project Overview
+This project is designed to perform sales analytics for Bokku Mart, leveraging historical sales data to derive insights into sales performance across different regions, customer segments, and time periods. The analysis aims to:
+- Identify top-performing salespeople and their contribution to overall revenue.
+- Examine seasonal trends, highlighting peak and low sales months to better understand market demand cycles.
+- Assess regional sales performance, pinpointing areas of strength and opportunities for growth in different regions.
+- Provide recommendations to optimize sales strategies based on the patterns and trends uncovered in the data.
 
-Bokku Mart is a leading retail company in Nigeria, dedicated to customer satisfaction by providing high-quality products at affordable prices. 
-The comapany offers a diverse range of products, making it a popular choice among consumers. 
+  ## Objectives
 
-This project aims to analyze the Bokku Mart dataset, which is a 'fictitious' dataset used as a case study to gain insights into customer behaviour, sales trends, and product performance.
 
-The dataset comprises sales record collected from Bokku Mart, spanning from January 2022 to December 2023. It includes keyvariables such as. This data will enable us to analyze sales performance and customer behaviour across various regions. 
+The objectives of this project are to analyze Bokku Mart's sales data across regions, product categories, salespeople, customer segments, and seasonal trends to uncover insights that can drive revenue growth and improve sales strategies.
+
+
+
+  - Revenue Distribution and Regional Performance
+  - Product Category Analysis
+  - Salesperson Performance Insights
+  - Seasonal Sales Trends and Strategy Optimization
+
+
+
+
+
+
 
 ## Tools
 The tool used for this analysis was Microsoft Excel, and the creation of visually engaging reports and interactive dashboard visualization.
