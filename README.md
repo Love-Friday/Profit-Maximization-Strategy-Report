@@ -88,9 +88,9 @@ Exploratory Data Analysis (EDA)
 
 In my profit maximization strategy report analysis, the result reveal a treasure of insights. The analysis results are summarized as follows;
 The following insights are derived from an in-depth analysis of the sales data, supported by visualizations that highlight key trends and patterns. 
-1. Regional Sales Performance
+- Regional Sales Performance
 The bar chart illustrating regional sales performance reveals that NE Region consistently outperforms other regions from the 2 year analysis, contributing to over 35% of total sales. However, SE Region shows low performance 15%.
-![image](https://github.com/user-attachments/assets/8bc1d8bc-a2c5-472d-92dc-b544b22d5f1f)
+![Screenshot 2024-12-02 152747](https://github.com/user-attachments/assets/dc23bd4e-403b-40b6-9a40-1a353c8823c6)
 
 
 
