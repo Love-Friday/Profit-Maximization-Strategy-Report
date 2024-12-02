@@ -30,16 +30,6 @@ This analysis aims to evaluate the sales performance of products at Bokku Mart b
 
 ### Business Questions  
 From the analysis, the management wants to an executive summary of the follwing based on the problem stated above. They include; 
-
-- What is the total revenue?
-- What is the total number of producrs sold?
-- What are the sales per customer?
-- What is the YTD revenue?
-- Which month and year had the most profit?
-- Where is the company seeing the most success by region?
-- Which product should be the company continue to invest in and reasons?
-- 
-
 1. How does revenue vary across different regions, which regions are underperforming, why and how can we improve?
 2. What product categories are driving the highest & lowest sales, and how can we capitalize on them further?
 3. Which salesperson contributes the highest sales, are they any pattern in their performance? How can the less performing salespersons tailor their approcah to meet the unique needs of different customer segemts and regions to boost sales?
@@ -97,16 +87,16 @@ The revenue trend over the months reveals a general upward slope at the beginnin
 
 likely due to post-holiday demand or promotions, while the months from March to October experience lower and more consistent sales, with a significant drop in October. This fluctuation indicates potential seasonality or external factors influencing revenue generation, with a recovery in December, which ends the year on a high note.
 
-
-
 - Product Sales Distribution
 The pie chart of product sales distribution demonstrates that Drinking water contributes to 22.7% of total revenue, whereas Milk Tea 18.61% and Water Dispenser	17.54% account for much smaller shares. Given Drinking water dominance, there may be opportunities to expand its marketing efforts and optimize its pricing strategy to capitalize on its popularity.
 
 - Customer Segmentation and Buying Behavior
 The bar chart depicting customer segments by purchase frequency highlights that KFC is a high-value customer based on her purchase trunover and contributed to 31% of total sales. This indicated a strong opportunity to focus on customer retention programs, loyalty rewards, and targeted marketing for these segments to increase lifetime value.
 
-- Sales Conversion Funnel
-The funnel visualization reveals a significant drop-off between initial interest and conversion, with only 25% of leads converting to customers. This highlights a need to optimize the sales process, particularly in the lead qualification and nurturing stages, to increase the conversion rate and reduce wasted efforts.
+- Salesperson Sales Performance
+The bar chart visualizing salesperson performance reveals that Vaughn, Harlon contributes the highest revenue throughout for the two years, with notable peaks in Q1 and Q3. This suggests that Vaughn Harlon has a strong ability to capture high-value sales during key periods, possibly leveraging targeted strategies or client relationships during peak demand times.
+
+In contrast, other salespeople show more inconsistent performance, with some achieving higher revenue in certain months, while others maintain steady but lower sales levels across the year. This indicates a potential opportunity for the lower-performing salespeople to refine their approach, especially during peak months.
 
 ### Recommedations 
 Based on the analysis of the data provided, the following recommendations may be considered:
