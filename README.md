@@ -36,8 +36,6 @@ From the analysis, the management wants to an executive summary of the follwing 
 4. Can we identify key customers who generate the most revenue and tailor strategies to retain and grow their business?
 5. Is there a seasonal trend in sales perfoemance, how can we adjust strategies to maximize profits during peak periods?
 
-Additionally, the analysis will investigate regional sales trends and determine which products the company should continue to invest in. 
-
 ## Data Description
 
 The dataset used for this report contains sales information from 4 different regions between 2022 and 2023. The dataset includes a total of 910 transactions, with each transaction containing essential information such as salesperson, products, regions, customers, date, item price, no of items, and revenue. 
@@ -61,12 +59,12 @@ In this report, I will outline the data cleaning process undertaken to prepare t
 
 - Loaded the dataset into ms excel
 - Removed duplicates (none found): select data > click data tab > click  remove duplicates icon.
-- used the PROPER function in the Salesperson column to convert text to proper case, correcting mixed capitalization.
-- Applied VALUE(CLEAN) function in the item price column to eliminate non-printable characters and convert text values to numbers.
+- used the PROPER function in the Salesperson column to convert text to proper case, correcting mixed capitalization, =PROPER(C2:C911)
+- Applied VALUE(CLEAN) function in the item price column to eliminate non-printable characters and convert text values to numbers, =VALUE(CLEAN(H2:H911)
 - The revenue column automatically updates by formatting it to calculate item price multiplied by the number of items  = H2 * I2 
-- Inserted two additional columns to extract Year and Month values from the Date column
+- Inserted two additional columns to extract Year and Month name values from the Date column
 - utilized the YEAR function to extract the year from the Date column; =YEAR(K2 : K911)
-- Employed the MONTH function to extract the month from the Date column;  =YEAR(L2 : L911)
+- Employed the TEXT function to extract the month name from the Date column;  =Text(G2,"MMM")
 
 
 Exploratory Data Analysis (EDA)
