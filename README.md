@@ -2,14 +2,21 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-
 - [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Tools](#tools)
-- [Data Cleaning](#data-cleaning)
-- [Business Questions](#business-questions)
-- [Results](#results) 
-- [Recommedations](#recommedations)
+- [Objectives](#objectives)
+2.[Business Problems](#business-problems)
+- [Problem Statement](#problem-statement)
+3.[Data Source](#data-source)
+- [Key Metrics and Variables](#key-metrics-and-variables)
+- [Data Quality](#data-quality)
+4.[Data Exploration & Preprocessing](#data-exploration-analysis)
+ - [Data Cleaning](#data-cleaning)
+ - [Data Transformation](#data-transformation)
+5. [Results & Analysis](#results-&-analysis)
+  - [Data Visualizations](#data-visualizations)
+  - [Insights](#insights)
+  - [Recommedations](#recommedations)
+6. [Conclusion](#conclusion)
 - [Limitations](#limitations)
 - [References](#references)
 
