@@ -88,11 +88,25 @@ Exploratory Data Analysis (EDA)
 
 In my profit maximization strategy report analysis, the result reveal a treasure of insights. The analysis results are summarized as follows;
 The following insights are derived from an in-depth analysis of the sales data, supported by visualizations that highlight key trends and patterns. 
-- Regional Sales Performance
-The bar chart illustrating regional sales performance reveals that NE Region consistently outperforms other regions from the 2 year analysis, contributing to over 35% of total sales. However, SE Region shows low performance 15%.
+- Regional Sales Performance:
+The bar chart illustrating regional sales performance reveals that NE Region consistently outperforms other regions, contributing to over 35% of total sales. However, SE Region shows low performance 15%.
 ![Screenshot 2024-12-02 152747](https://github.com/user-attachments/assets/dc23bd4e-403b-40b6-9a40-1a353c8823c6)
 
+-Sales Growth Trends Over Time
+The revenue trend over the months reveals a general upward slope at the beginning of the period, with a notable peak in the first few months, followed by a steady decline through the middle of the year. From April to August, the sales figures remained relatively stable, showing little fluctuation. However, towards the end of the year, there is a sharp increase in revenue, culminating in a significant rise in the final month. This pattern suggests a seasonal fluctuation, where sales are strongest at the beginning and end of the year, while the months in between show a consistent but lower level of performance.  This indicates that seasonal factors, such as changes in market demand or the timing of promotional activities, are likely contributing to these fluctuations. This fluctuation indicates potential seasonality or external factors influencing revenue generation, with a recovery in December, which ends the year on a high note.
 
+likely due to post-holiday demand or promotions, while the months from March to October experience lower and more consistent sales, with a significant drop in October. This fluctuation indicates potential seasonality or external factors influencing revenue generation, with a recovery in December, which ends the year on a high note.
+
+
+
+- Product Sales Distribution
+The pie chart of product sales distribution demonstrates that Drinking water contributes to 22.7% of total revenue, whereas Milk Tea 18.61% and Water Dispenser	17.54% account for much smaller shares. Given Drinking water dominance, there may be opportunities to expand its marketing efforts and optimize its pricing strategy to capitalize on its popularity.
+
+- Customer Segmentation and Buying Behavior
+The bar chart depicting customer segments by purchase frequency highlights that KFC is a high-value customer based on her purchase trunover and contributed to 31% of total sales. This indicated a strong opportunity to focus on customer retention programs, loyalty rewards, and targeted marketing for these segments to increase lifetime value.
+
+- Sales Conversion Funnel
+The funnel visualization reveals a significant drop-off between initial interest and conversion, with only 25% of leads converting to customers. This highlights a need to optimize the sales process, particularly in the lead qualification and nurturing stages, to increase the conversion rate and reduce wasted efforts.
 
 ### Recommedations 
 Based on the analysis of the data provided, the following recommendations may be considered:
