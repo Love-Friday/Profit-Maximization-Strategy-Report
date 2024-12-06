@@ -1,75 +1,45 @@
 # Profit-Maximization-Strategy-Report: Ms Excel Project
 
 ## Table of Contents
-1. [Introduction](#introduction)
-   -[Project Overview](#project-overview)
-   -[Objectives](#objectives)
-2.[Business Problems](#business-problems)
-   - [Problem Statement](#problem-statement)
-3.[Data Source](#data-source)
-- [Key Metrics and Variables](#key-metrics-and-variables)
-- [Data Quality](#data-quality)
-4.[Data Exploration & Preprocessing](#data-exploration-analysis)
- - [Data Cleaning](#data-cleaning)
- - [Data Transformation](#data-transformation)
-5. [Results & Analysis](#results-&-analysis)
-  - [Data Visualizations](#data-visualizations)
-  - [Insights](#insights)
-  - [Recommedations](#recommedations)
-6. [Conclusion](#conclusion)
-- [Limitations](#limitations)
-- [References](#references)
-
+1.  [Introduction](#introduction)
+2.  [Objectives](#objectives)
+3.  [Business Problems](#business-problems)
+4.  [Business Questions](#business-questions)
+5.  [Data Source & Description](#data-source-&-description)
+6.  [Data Cleaning](#data-cleaning)
+7.  [Results & Analysis](#results-&-analysis)
+8.  [Insights](#insights)
+9.  [Recommedations](#recommedations)
+10. [Conclusion](#conclusion)
+11. [References](#references)
+    
 ## Introduction
 
-Bokku Mart is a leading retail company in Nigeria, dedicated to customer satisfaction by providing high-quality products at affordable prices. The comapany offers a diverse range of products, making it a popular choice among consumers. 
+Bokku Mart is a leading retail company in Nigeria that has established itself as a trusted brand committed to delivering exceptional customer satisfaction. Founded with the goal of providing high-quality products at affordable prices, Bokku Mart has become a popular choice among consumers across the country. With a wide and diverse range of products spanning from groceries to electronics, household goods, and more, the company has catered to the varied needs of its customers.
 
-This project focuses on sales analytics for Bokku Mart, aiming to analyze and visualize sales data to uncover sales trends, customer behavior, product and salesperson performance. The objective is to identify top-performing salespeople, highlight seasonal and regional sales fluctuations, and provide actionable insights to optimize sales strategies. By utilizing data analysis tools and visualizations, this project helps guide decision-making to improve sales performance and maximize revenue at Bokku Mart.
+As a forward-thinking company, Bokku Mart continues to prioritize customer satisfaction by offering an enhanced shopping experience both in-store and online. Its extensive product offerings, coupled with strategic pricing, have allowed it to gain a significant market share in Nigeria's competitive retail industry.
 
-## Project Overview
-This project is designed to perform sales analytics for Bokku Mart, leveraging historical sales data to derive insights into sales performance across different regions, customer segments, and time periods. The analysis aims to:
-- Identify top-performing salespeople and their contribution to overall revenue.
-- Examine seasonal trends, highlighting peak and low sales months to better understand market demand cycles.
-- Assess regional sales performance, pinpointing areas of strength and opportunities for growth in different regions.
-- Provide recommendations to optimize sales strategies based on the patterns and trends uncovered in the data.
+This report aims to analyze the sales performance of Bokku Mart to better understand its market position, identify growth opportunities, and optimize sales strategies. The analysis leverages various sales data, customer insights, and performance metrics to uncover trends, patterns, and key drivers behind Bokku Mart’s business success.
 
-  ## Objectives
+Through this analysis, we seek to provide actionable recommendations that can support the company's objectives, including improving product offerings, adjusting pricing strategies, and enhancing overall sales performance. This project will also explore how data-driven insights can be leveraged to ensure that Bokku Mart remains a dominant player in the retail sector, continuously meeting the demands and expectations of its customers.
 
+## Project Objectives
+The objectives of this project are to evaluate regional sales performance, identify underperforming areas, and recommend strategies for improvement. It aims to analyze product categories to identify high and low performers and suggest opportunities to enhance revenue. The project will assess salesperson performance and recommend ways for underperforming sales staff to improve based on customer and regional needs. Additionally, it will identify high-value customers and propose strategies to retain and grow these relationships, while also examining seasonal sales trends to optimize profitability year-round.
 
-The objectives of this project are to analyze Bokku Mart's sales data across regions, product categories, salespeople, customer segments, and seasonal trends to uncover insights that can drive revenue growth and improve sales strategies.
-
-
-
-  - Revenue Distribution and Regional Performance
-  - Product Category Analysis
-  - Salesperson Performance Insights
-  - Seasonal Sales Trends and Strategy Optimization
-
-
-
-
-
-
-
-## Tools
-The tool used for this analysis was Microsoft Excel, and the creation of visually engaging reports and interactive dashboard visualization.
-
-## Problem Statement 
-This analysis aims to evaluate the sales performance of products at Bokku Mart by examining key metrics such as total revenue from products sold, sales per customer, year-to-date revenue, and identifying the month and year with the highest profit. 
+## Business Problem 
+Bokku Mart is facing challenges in optimizing sales across regions, product categories, and sales teams. There are discrepancies in revenue performance, with some regions and product categories underperforming. Sales staff performance varies, and there is a need to better understand customer behavior and seasonal trends. The company seeks actionable insights to improve sales, profitability, and customer retention.
 
 ### Business Questions  
-From the analysis, the management wants to an executive summary of the follwing based on the problem stated above. They include; 
-1. How does revenue vary across different regions, which regions are underperforming, why and how can we improve?
-2. What product categories are driving the highest & lowest sales, and how can we capitalize on them further?
-3. Which salesperson contributes the highest sales, are they any pattern in their performance? How can the less performing salespersons tailor their approcah to meet the unique needs of different customer segemts and regions to boost sales?
-4. Can we identify key customers who generate the most revenue and tailor strategies to retain and grow their business?
-5. Is there a seasonal trend in sales perfoemance, how can we adjust strategies to maximize profits during peak periods?
-
-## Data Description
-
-The dataset used for this report contains sales information from 4 different regions between 2022 and 2023. The dataset includes a total of 910 transactions, with each transaction containing essential information such as salesperson, products, regions, customers, date, item price, no of items, and revenue. 
-
-Attribute information. 
+The following business questions aim to uncover key insights into Bokku Mart's sales performance across different regions, product categories, sales teams, customer segments, and seasonal trends. By addressing these questions, the company can identify areas for improvement and develop strategies to optimize revenue and customer retention.
+1. How does revenue performance differ across regions, and which regions are underperforming? What are the underlying factors causing this underperformance, and what strategies can be implemented to enhance sales in these regions?
+2. Which product categories are driving the highest and lowest sales, and what opportunities exist to further capitalize on top-performing categories while addressing underperforming ones?
+3. Which salesperson contributes the most to sales, and are there any patterns in their performance? How can underperforming salespeople adjust their approach to better serve customer segments and regions to boost overall sales?
+4. Can we identify high-value customers who generate the most revenue, and what strategies can be developed to retain and expand these relationships for sustained business growth?
+5. Is there a seasonal trend in sales performance, and how can Bokku Mart optimize strategies to maximize profits during peak periods and mitigate challenges during slower seasons?
+   
+### Data Source & Description
+For this analysis, the data was collected from Bokku Mart's internal sales records. It is an excel file and spans from year 2022 and 2023.The dataset includes a total of 910 transactions, with each transaction containing essential information such as salesperson, products, regions, customers, date, item price, no of items, and revenue
+#### Attribute information
 - salesperson: this lists the names of the sales representative who facilitated each transaction.
 -  products: this column contains the name of the products sold
 -  region: this indicates the geographic area where the sales occurred
@@ -77,11 +47,10 @@ Attribute information.
 -  date: this column records the date of each transaction
 -  item price: this column lists the price of each individual item sold
 -  no items: this column reflects the quantity of each product sold in the transaction
--  revenue: this ccolumn calculates the total revenue generated from each transaction. 
-  
-### Data Source
+-  revenue: this ccolumn calculates the total revenue generated from each transaction.
 
-The primary dataset used for this project is the 'sales _data.excel' file. These data points serve as the foundation for analyzing sales performance and formulating strategies to enhance profitability. 
+#### Tools
+The tool used for this analysis was Microsoft Excel, and the creation of visually engaging reports and interactive dashboard visualization.
 
 ### Data Cleaning
 In this report, I will outline the data cleaning process undertaken to prepare the dataset for analysis. The dataset, which contains sales information from various regions, required several steps to ensure accuracy and consistency. Below are the key actions taken to clean and organize the data effectively. 
@@ -95,15 +64,7 @@ In this report, I will outline the data cleaning process undertaken to prepare t
 - utilized the YEAR function to extract the year from the Date column; =YEAR(K2 : K911)
 - Employed the TEXT function to extract the month name from the Date column;  =Text(G2,"MMM")
 
-
-Exploratory Data Analysis (EDA)
-
-
-
-
-### Insights
-
-In my profit maximization strategy report analysis, the result reveal a treasure of insights. The analysis results are summarized as follows;
+### Insights and Findings 
 The following insights are derived from an in-depth analysis of the sales data, supported by visualizations that highlight key trends and patterns. 
 - Regional Sales Performance:
 The bar chart illustrating regional sales performance reveals that NE Region consistently outperforms other regions, contributing to over 35% of total sales. However, SE Region shows low performance 15%.
@@ -128,11 +89,7 @@ In contrast, other salespeople show more inconsistent performance, with some ach
 ### Recommedations 
 Based on the analysis of the data provided, the following recommendations may be considered:
 
-Conclusion 
-
-References 
-
-### Limitations 
+### Conclusion 
 
 ### References 
 
