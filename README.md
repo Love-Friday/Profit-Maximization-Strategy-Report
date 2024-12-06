@@ -56,13 +56,18 @@ The tool used for this analysis was Microsoft Excel, and the creation of visuall
 In this report, I will outline the data cleaning process undertaken to prepare the dataset for analysis. The dataset, which contains sales information from various regions, required several steps to ensure accuracy and consistency. Below are the key actions taken to clean and organize the data effectively. 
 
 - Loaded the dataset into ms excel
+  ![Screenshot 2024-12-06 144120](https://github.com/user-attachments/assets/61e57720-fb22-4747-8775-8deac7d1e1b5)
+- The above is the data in its raw stage
 - Removed duplicates (none found): select data > click data tab > click  remove duplicates icon.
+  ![Screenshot 2024-12-06 144255](https://github.com/user-attachments/assets/4a071410-5b07-409a-8445-10e53fd97448)
 - used the PROPER function in the Salesperson column to convert text to proper case, correcting mixed capitalization, =PROPER(C2:C911)
 - Applied VALUE(CLEAN) function in the item price column to eliminate non-printable characters and convert text values to numbers, =VALUE(CLEAN(H2:H911)
 - The revenue column automatically updates by formatting it to calculate item price multiplied by the number of items  = H2 * I2 
 - Inserted two additional columns to extract Year and Month name values from the Date column
 - utilized the YEAR function to extract the year from the Date column; =YEAR(K2 : K911)
 - Employed the TEXT function to extract the month name from the Date column;  =Text(G2,"MMM")
+  ![Screenshot 2024-12-06 144451](https://github.com/user-attachments/assets/a6cc2bb3-b556-4315-8f5b-acc1435c8593)
+- The above is the cleaned data file ready for analysis. 
 
 ### Results & Visualization
 The sales analysis for Bokku Mart reveals significant regional performance disparities, with regions like Lagos and Abuja outperforming areas such as Kaduna and Enugu, suggesting a need for targeted sales strategies in underperforming regions. Electronics and Groceries drive the highest revenue, while categories like Clothing and Home Decor show lower sales, highlighting opportunities for focused marketing and inventory management. Salesperson performance varies widely, with a few top performers contributing most of the revenue, indicating that additional support and training could benefit underperforming staff. Seasonal trends indicate peak sales during the holiday season, with a noticeable drop afterward, suggesting opportunities for post-holiday promotions to sustain revenue. High-value customers generate the majority of revenue, emphasizing the importance of retaining these customers through tailored loyalty programs. Visualizations such as bar charts, pie charts, and line graphs effectively illustrate these trends and insights.
