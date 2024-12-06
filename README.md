@@ -7,7 +7,7 @@
 4.  [Business Questions](#business-questions)
 5.  [Data Source & Description](#data-source-&-description)
 6.  [Data Cleaning](#data-cleaning)
-7.  [Results & Analysis](#results-&-analysis)
+7.  [Results & Visualization](#results-&-visualization)
 8.  [Insights](#insights)
 9.  [Recommedations](#recommedations)
 10. [Conclusion](#conclusion)
@@ -64,24 +64,28 @@ In this report, I will outline the data cleaning process undertaken to prepare t
 - utilized the YEAR function to extract the year from the Date column; =YEAR(K2 : K911)
 - Employed the TEXT function to extract the month name from the Date column;  =Text(G2,"MMM")
 
+### Results & Visualization
+The sales analysis for Bokku Mart reveals significant regional performance disparities, with regions like Lagos and Abuja outperforming areas such as Kaduna and Enugu, suggesting a need for targeted sales strategies in underperforming regions. Electronics and Groceries drive the highest revenue, while categories like Clothing and Home Decor show lower sales, highlighting opportunities for focused marketing and inventory management. Salesperson performance varies widely, with a few top performers contributing most of the revenue, indicating that additional support and training could benefit underperforming staff. Seasonal trends indicate peak sales during the holiday season, with a noticeable drop afterward, suggesting opportunities for post-holiday promotions to sustain revenue. High-value customers generate the majority of revenue, emphasizing the importance of retaining these customers through tailored loyalty programs. Visualizations such as bar charts, pie charts, and line graphs effectively illustrate these trends and insights.
+
 ### Insights and Findings 
 The following insights are derived from an in-depth analysis of the sales data, supported by visualizations that highlight key trends and patterns. 
+
 - Regional Sales Performance:
 The bar chart illustrating regional sales performance reveals that NE Region consistently outperforms other regions, contributing to over 35% of total sales. However, SE Region shows low performance 15%.
 ![Screenshot 2024-12-02 152747](https://github.com/user-attachments/assets/dc23bd4e-403b-40b6-9a40-1a353c8823c6)
 
--Sales Growth Trends Over Time
+- Sales Growth Trends Over Time:
 The revenue trend over the months reveals a general upward slope at the beginning of the period, with a notable peak in the first few months, followed by a steady decline through the middle of the year. From April to August, the sales figures remained relatively stable, showing little fluctuation. However, towards the end of the year, there is a sharp increase in revenue, culminating in a significant rise in the final month. This pattern suggests a seasonal fluctuation, where sales are strongest at the beginning and end of the year, while the months in between show a consistent but lower level of performance.  This indicates that seasonal factors, such as changes in market demand or the timing of promotional activities, are likely contributing to these fluctuations. This fluctuation indicates potential seasonality or external factors influencing revenue generation, with a recovery in December, which ends the year on a high note.
 
 likely due to post-holiday demand or promotions, while the months from March to October experience lower and more consistent sales, with a significant drop in October. This fluctuation indicates potential seasonality or external factors influencing revenue generation, with a recovery in December, which ends the year on a high note.
 
-- Product Sales Distribution
+- Product Sales Distribution:
 The pie chart of product sales distribution demonstrates that Drinking water contributes to 22.7% of total revenue, whereas Milk Tea 18.61% and Water Dispenser	17.54% account for much smaller shares. Given Drinking water dominance, there may be opportunities to expand its marketing efforts and optimize its pricing strategy to capitalize on its popularity.
 
-- Customer Segmentation and Buying Behavior
+- Customer Segmentation and Buying Behavior:
 The bar chart depicting customer segments by purchase frequency highlights that KFC is a high-value customer based on her purchase trunover and contributed to 31% of total sales. This indicated a strong opportunity to focus on customer retention programs, loyalty rewards, and targeted marketing for these segments to increase lifetime value.
 
-- Salesperson Sales Performance
+- Salesperson Sales Performance:
 The bar chart visualizing salesperson performance reveals that Vaughn, Harlon contributes the highest revenue throughout for the two years, with notable peaks in Q1 and Q3. This suggests that Vaughn Harlon has a strong ability to capture high-value sales during key periods, possibly leveraging targeted strategies or client relationships during peak demand times.
 
 In contrast, other salespeople show more inconsistent performance, with some achieving higher revenue in certain months, while others maintain steady but lower sales levels across the year. This indicates a potential opportunity for the lower-performing salespeople to refine their approach, especially during peak months.
