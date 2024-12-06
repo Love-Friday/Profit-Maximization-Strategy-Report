@@ -67,6 +67,9 @@ In this report, I will outline the data cleaning process undertaken to prepare t
 ### Results & Visualization
 The sales analysis for Bokku Mart reveals significant regional performance disparities, with regions like Lagos and Abuja outperforming areas such as Kaduna and Enugu, suggesting a need for targeted sales strategies in underperforming regions. Electronics and Groceries drive the highest revenue, while categories like Clothing and Home Decor show lower sales, highlighting opportunities for focused marketing and inventory management. Salesperson performance varies widely, with a few top performers contributing most of the revenue, indicating that additional support and training could benefit underperforming staff. Seasonal trends indicate peak sales during the holiday season, with a noticeable drop afterward, suggesting opportunities for post-holiday promotions to sustain revenue. High-value customers generate the majority of revenue, emphasizing the importance of retaining these customers through tailored loyalty programs. Visualizations such as bar charts, pie charts, and line graphs effectively illustrate these trends and insights.
 
+![Screenshot 2024-12-06 143108](https://github.com/user-attachments/assets/d7e1f132-e790-4ffd-8f6a-c4a933df0a7d)
+
+
 ### Insights and Findings 
 The following insights are derived from an in-depth analysis of the sales data, supported by visualizations that highlight key trends and patterns. 
 
