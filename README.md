@@ -88,15 +88,17 @@ The revenue trend over the months reveals a general upward slope at the beginnin
 
 - Product Sales Distribution:
 The pie chart of product sales distribution demonstrates that Drinking water contributes to 22.7% of total revenue, whereas Milk Tea 18.61% and Water Dispenser	17.54% account for much smaller shares. Given Drinking water dominance, there may be opportunities to expand its marketing efforts and optimize its pricing strategy to capitalize on its popularity.
+
 ![Screenshot 2024-12-06 143555](https://github.com/user-attachments/assets/526b128c-3367-435e-b8c7-ed77c7bd1388)
 
 - Customer Segmentation and Buying Behavior:
 The bar chart depicting customer segments by purchase frequency highlights that KFC is a high-value customer based on her purchase trunover and contributed to 31% of total sales. This indicated a strong opportunity to focus on customer retention programs, loyalty rewards, and targeted marketing for these segments to increase lifetime value.
+
 ![Screenshot 2024-12-06 143708](https://github.com/user-attachments/assets/5251c4ca-5591-4cf3-9ee0-2f72a5a7ed21)
 
 - Salesperson Sales Performance:
-The bar chart visualizing salesperson performance reveals that Vaughn, Harlon contributes the highest revenue throughout for the two years, with notable peaks in Q1 and Q3. This suggests that Vaughn Harlon has a strong ability to capture high-value sales during key periods, possibly leveraging targeted strategies or client relationships during peak demand times.
-In contrast, other salespeople show more inconsistent performance, with some achieving higher revenue in certain months, while others maintain steady but lower sales levels across the year. This indicates a potential opportunity for the lower-performing salespeople to refine their approach, especially during peak months.
+The bar chart visualizing salesperson performance reveals that Vaughn, Harlon contributes the highest revenue throughout for the two years, with notable peaks in Q1 and Q3. This suggests that Vaughn Harlon has a strong ability to capture high-value sales during key periods, possibly leveraging targeted strategies or client relationships during peak demand times. In contrast, other salespeople show more inconsistent performance, with some achieving higher revenue in certain months, while others maintain steady but lower sales levels across the year. This indicates a potential opportunity for the lower-performing salespeople to refine their approach, especially during peak months.
+
 ![Screenshot 2024-12-06 143817](https://github.com/user-attachments/assets/9b282559-f17b-46c4-bc9c-db9a622beeb9)
 
 ### Recommedations 
